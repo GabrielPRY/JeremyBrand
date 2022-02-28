@@ -1,0 +1,37 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+}
+
+.nav-bar{
+    padding: 10px;
+    color: white;
+    background-color: #7ACC2D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-image img{
+    width: 100px;
+}
+
+.nav-bar-options-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-options-list li{
+    padding-left: 20px;
+}
+
+.nav-bar-options-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-options-list li a:hover{
+    color: white;
+}
