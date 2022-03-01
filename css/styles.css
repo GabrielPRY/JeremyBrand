@@ -2,6 +2,7 @@
 :root{
 --green--color: #7ACC2D;
 --black--color: #313337;
+--gray--fox: #c1bcbc;
 --space: 10px;
 --normal: 12px;
 --box-shadow: 0 2px 1px #c1bcbc;
@@ -91,4 +92,56 @@ html,body{
 
 .main-button:hover{
     background-color: #5e9e22;
+}
+
+.product-marketing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 7%;
+    text-align: center;
+    border-bottom: 1px solid var(--gray--fox);
+}
+
+.marketing-content-container{
+    margin: 0;
+}
+
+.marketing-content-container img{
+    max-width: 40%;
+}
+
+.product-mentions-container{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    justify-items: center;
+    justify-content: center;
+}
+
+.mentions-container{
+    margin: 0;
+    width: 239px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.mentions-container img{
+    max-width: 100%;
+}
+
+.product-mentions{
+    padding-top: 3em;
+}
+
+.product-mentions h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.mentions h3, .mentions p{
+    padding-left: 5px;
+}
+
+.mentions{
+    box-shadow:  0px 3px 6px #00000029;
 }
