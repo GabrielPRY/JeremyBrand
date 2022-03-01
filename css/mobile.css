@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+    .products{
+        display: inherit;
+        max-height: 100%;
+        padding: 4em;
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .main-section{
+        padding: 4%;
+    }
+
+    .product-marketing{
+        grid-template-columns: 1fr;
+    }
+
+    .product-mentions-container{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+}
