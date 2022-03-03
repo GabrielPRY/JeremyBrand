@@ -256,3 +256,7 @@ max-width: 20%;
     text-decoration: none;
     color: white;
 }
+
+.contact a{
+    color: var(--green--color)
+}
