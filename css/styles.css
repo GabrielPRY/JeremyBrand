@@ -163,39 +163,30 @@ footer{
     margin: 1em 1em;
 }
 
+.product-page{
+    text-align: center;
+    height: 100vh;
+}
+
 .grid-container{
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr;
     justify-items: center;
     align-items: center;
-    padding-bottom: 5em;
-    margin-right: 10em;
 }
 
-.produc-descrip:nth-child(3){
-    justify-self: flex-end;
+.produc-img{
+ text-align: center;
 }
 
-.produc-img-left{
-  display: flex;
-  justify-content: flex-end;
+.produc-img img{
+max-width: 20%;
 }
-
-.produc-img-right{
-    display: flex;
-    justify-content: center;
-  }
-
-.produc-img-left img,
-.produc-img-right img{
-    width: 30%;
-}
-
 
 .venta-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 80vh;
+    height: 100vh;
     align-content: center;
     align-items: center;
 }

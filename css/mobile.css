@@ -21,4 +21,26 @@
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 20px;
     }
+
+    .grid-container{
+        display: grid;
+        grid-template: none;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .product-page{
+        height: initial;
+    }
+
+    .venta-grid-container{
+        grid-template-rows: 1fr;
+        grid-template-columns: none;
+        height: initial;
+    }
+
+    .modulo-pago{
+        margin-left: auto;
+    }
 }
