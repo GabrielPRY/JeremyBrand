@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Jeremy</title>
+</head>
+
+<body>
+    <nav class="nav-bar fadeInDown">
+        <div class="brand-image">
+            <img src="/images/logo.png" alt="logo">
+        </div>
+
+        <div class="nav-bar-options">
+            <ul class="nav-bar-options-list">
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Productos y descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="venta-grid-container">
+        <div class="product-venta">
+            <figure class="product-venta-container">
+                <img src="/images/box.png" alt="image">
+            </figure>
+            <h3>Producto 1</h3>
+            <p>El mejor producto ficticio!</p>
+        </div>
+        <div class="modulo-pago">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PZ9BMHME3LGCC"
+                method="post">
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" placeholder="Nombre" name="nombre" class="data">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" placeholder="email" name="email" class="data">
+                <br>
+                <label for="tel">Teléfono</label>
+                <br>
+                <input type="text" placeholder="teléfono" name="tel" class="data">
+                <input type="submit" class="main-button data" value="Confirmar Pago">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="option">Terminos y condiciones</div>
+        <div class="option">contacto@brand.com</div>
+    </footer>
+    <script src="/scripts/script.js">
+
+    </script>
+</body>
+
+</html>
