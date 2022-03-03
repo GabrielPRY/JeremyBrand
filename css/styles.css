@@ -255,3 +255,13 @@ footer{
     cursor: pointer;
 
 }
+
+.faqs-articles{
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+.option a{
+    text-decoration: none;
+    color: white;
+}
