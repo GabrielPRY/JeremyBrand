@@ -15,6 +15,10 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 }
 
+label, p{
+    font-size: var(--normal);
+}
+
 .nav-bar{
     padding: 10px;
     color: white;
@@ -186,3 +190,47 @@ footer{
 .produc-img-right img{
     width: 30%;
 }
+
+
+.venta-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    align-content: center;
+    align-items: center;
+}
+
+.modulo-pago{
+    background-color: white;
+    padding: var(--space);
+  
+}
+
+.data{
+    margin-top: var(--space);
+    width: 60%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing:border-box;
+}
+
+.modulo-pago .main-button{
+    margin-top: 10px;
+}
+
+.product-venta-container{
+    margin: 0;
+   
+}
+
+.product-venta{
+    padding: 3em;
+    text-align: center;
+}
+
+.product-venta-container img{
+    max-width: 30%;
+}
+
+
